@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/background"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
@@ -10,7 +11,7 @@
     android:background="@drawable/activity_background"
     tools:context="com.bearlymade.beautifulwords.MainActivity">
 
-    <TextView
+    <com.bearlymade.beautifulwords.Typewriter
         android:id="@+id/haiku_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -18,15 +19,35 @@
         android:gravity="center"
         android:textSize="25sp"
         android:layout_centerHorizontal="true"
-        android:textColor="#F9CDAD"
+        android:textColor="@color/text1"
         android:text="These Beautiful Words\nIn the dawn of twilight's moon\nKnow more than you see" />
 
-    <ImageView
-        android:id="@+id/new_button"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_marginBottom="60dp"
+    <FrameLayout
+        android:id="@+id/button_wrapper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:src="@drawable/new_button"/>
+        android:layout_centerHorizontal="true">
+        <ImageView
+            android:id="@+id/new_button"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginBottom="60dp"
+            android:background="@drawable/new_button"/>
+        <com.bearlymade.beautifulwords.ImageFadeView
+            android:id="@+id/button_icon"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginBottom="60dp"
+            android:alpha=".5"
+            android:src="@drawable/spiral1"
+            android:adjustViewBounds="false" />
+    </FrameLayout>
+    <com.facebook.share.widget.ShareButton
+        android:id="@+id/share_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/buttonMain1"/>
 </RelativeLayout>

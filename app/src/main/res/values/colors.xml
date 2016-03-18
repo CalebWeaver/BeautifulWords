@@ -3,4 +3,40 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="buttonMain1">#FE4365</color>
+    <color name="buttonBorder1">#FC9D9A</color>
+    <color name="backgroundMain1">#83AF9B</color>
+    <color name="backgroundBorder1">#C8C8A9</color>
+    <color name="text1">#F9CDAD</color>
+
+    <color name="buttonMain2">#9A902C</color>
+    <color name="buttonBorder2">#EAA353</color>
+    <color name="backgroundMain2">#1C3A2E</color>
+    <color name="backgroundBorder2">#2B665C</color>
+    <color name="text2">#FBDAA4</color>
+
+    <color name="buttonMain3">#DE716F</color>
+    <color name="buttonBorder3">#8F81BE</color>
+    <color name="backgroundMain3">#5F4364</color>
+    <color name="backgroundBorder3">#975278</color>
+    <color name="text3">#FACCA0</color>
+
+    <color name="buttonMain4">#E6AC27</color>
+    <color name="buttonBorder4">#655643</color>
+    <color name="backgroundMain4">#BF4D28</color>
+    <color name="backgroundBorder4">#80BCA3</color>
+    <color name="text4">#F6F7BD</color>
+
+    <color name="buttonMain5">#ABCACD</color>
+    <color name="buttonBorder5">#BE4963</color>
+    <color name="backgroundMain5">#F2F1ED</color>
+    <color name="backgroundBorder5">#655643</color>
+    <color name="text5">#B48D4C</color>
+
+    <color name="buttonMain6">#FC913A</color>
+    <color name="buttonBorder6">#F9D423</color>
+    <color name="backgroundMain6">#E1F5C4</color>
+    <color name="backgroundBorder6">#EDE574</color>
+    <color name="text6">#FF4E50</color>
 </resources>
