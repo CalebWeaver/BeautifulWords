@@ -15,7 +15,7 @@
         android:id="@+id/haiku_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="80dp"
         android:gravity="center"
         android:textSize="25sp"
         android:layout_centerHorizontal="true"
@@ -24,30 +24,32 @@
 
     <FrameLayout
         android:id="@+id/button_wrapper"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"
         android:layout_centerHorizontal="true">
         <ImageView
             android:id="@+id/new_button"
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:layout_marginBottom="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:background="@drawable/new_button"/>
         <com.bearlymade.beautifulwords.ImageFadeView
             android:id="@+id/button_icon"
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:layout_marginBottom="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:alpha=".5"
             android:src="@drawable/spiral1"
             android:adjustViewBounds="false" />
     </FrameLayout>
-    <com.facebook.share.widget.ShareButton
+    <TextView
         android:id="@+id/share_button"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:background="@color/buttonMain1"/>
+        android:text="Share"
+        android:textSize="24dp"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:background="@drawable/share_button"/>
 </RelativeLayout>
